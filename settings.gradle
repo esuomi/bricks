@@ -1,2 +1,2 @@
 rootProject.name="bricks"
-include 'bricks-concurrent', 'bricks-text'
+include 'bricks-concurrent', 'bricks-text', 'bricks-ddd'
