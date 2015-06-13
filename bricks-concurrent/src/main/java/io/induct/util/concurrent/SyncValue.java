@@ -28,11 +28,11 @@ public class SyncValue<V> {
     }
 
     /**
-     * Get the value. This method will block until value is being made available with {@link #push(V)} or the underlying
+     * Get the value. This method will block until value is being made available with {@link #push(Object)} or the underlying
      * latch is interrupted. There is no timeout involved making this method potentially hazardous if value is never
      * provided.
      *
-     * @return Value produced by calling {@link #push(V)}
+     * @return Value produced by calling {@link #push(Object)}
      * @throws io.induct.util.concurrent.HaltedException Thrown if value cannot be acquired.
      */
     public V get() {
