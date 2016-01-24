@@ -1,2 +1,2 @@
 rootProject.name="bricks"
-include 'bricks-concurrent', 'bricks-text', 'bricks-ddd'
+include 'bricks-concurrent', 'bricks-text', 'bricks-ddd', 'bricks-jdk8-functions'
